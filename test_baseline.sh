@@ -1,0 +1,1 @@
+python main.py --dataset cifar10 --encoder vit_b_16 --baselines linear,knn,lp --batch-size 256 --cache-dir ./cache --metrics acc,ece,nll --ood-dataset stl10 --lp-kernel knn --lp-k 10
