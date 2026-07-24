@@ -1,0 +1,10 @@
+\begin{table}[]
+\begin{tabular}{l|l}
+\hline
+Method         & graph Dirichlet energy \\\hline
+GM (P=32)      & 0.291 (0.000)          \\
+kNN            & 0.321 (0.000)          \\
+LabelSpreading & 0.344 (0.000)          \\\hline
+\end{tabular}
+\label{tab:idc_smooth}
+\end{table}

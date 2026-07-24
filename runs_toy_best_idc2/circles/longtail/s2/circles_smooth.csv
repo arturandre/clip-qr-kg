@@ -1,0 +1,5 @@
+tag,method,smooth
+circles_2class_fixed,GM (P=112),0.460453
+circles_2class_fixed,GM-flat (P=112),0.460484
+circles_2class_fixed,kNN,0.703639
+circles_2class_fixed,LabelSpreading,7.196812

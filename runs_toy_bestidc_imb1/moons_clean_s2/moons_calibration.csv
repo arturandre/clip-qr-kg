@@ -1,0 +1,9 @@
+tag,method,acc,nll,brier,ece
+moons_2class_fixed,Linear,0.886500,0.251487,0.161989,0.033453
+moons_2class_fixed,kNN,0.999000,0.002222,0.001490,0.000750
+moons_2class_fixed,LabelSpreading,0.999000,0.001843,0.001130,0.000691
+moons_2class_fixed,GM,0.898000,0.228613,0.128694,0.093253
+moons_2class_fixed,GM-flat,0.898000,0.229970,0.128752,0.097195
+moons_2class_fixed,GM-instance,0.999000,0.107440,0.021539,0.100529
+moons_2class_fixed,GM-centroid,0.137000,23.845570,1.726000,0.863000
+moons_2class_fixed,kNN-budget(P=32),0.870000,0.323090,0.186470,0.122250

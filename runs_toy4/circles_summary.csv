@@ -1,0 +1,15 @@
+tag,method,acc,t_fit,t_pred,n_train,n_test,K,n_classes
+circles_2class_fixed,Linear,0.465000,0.00150753,0.00017733,1200,800,-,2
+circles_2class_fixed,kNN,1.000000,0.00082830,0.02620564,1200,800,-,2
+circles_2class_fixed,LP,1.000000,0.00642889,0.00000109,1200,800,-,2
+circles_2class_fixed,GM,1.000000,0.13080865,0.02374922,1200,800,32,2
+circles_2class_fixed,GM-flat,1.000000,0.08661210,0.02340517,1200,800,32,2
+circles_2class_fixed,GM-instance,1.000000,0.02644932,0.66846084,1200,800,1200,2
+circles_2class_fixed,GM-centroid,0.465000,0.00024975,0.04133412,1200,800,2,2
+circles_multiclass_fixed,Linear,0.473333,0.01305332,0.00034473,1800,1200,-,6
+circles_multiclass_fixed,kNN,0.980833,0.00151026,0.06412706,1800,1200,-,6
+circles_multiclass_fixed,LP,0.999167,0.02115596,0.00000179,1800,1200,-,6
+circles_multiclass_fixed,GM,0.840000,0.68730618,0.09652057,1800,1200,48,6
+circles_multiclass_fixed,GM-flat,0.840000,0.78931632,0.09580465,1800,1200,48,6
+circles_multiclass_fixed,GM-instance,1.000000,0.07592899,28.28683414,1800,1200,1800,6
+circles_multiclass_fixed,GM-centroid,0.499167,0.00065078,0.09085992,1800,1200,6,6

@@ -1,0 +1,41 @@
+tag,method,acc,nll,brier,ece
+moons_2class_fixed,Linear,0.796000,0.514668,0.311951,0.086686
+moons_2class_fixed,kNN,0.899500,0.749528,0.138830,0.039650
+moons_2class_fixed,LabelSpreading,0.911500,0.454881,0.141575,0.058723
+moons_2class_fixed,GM (P=112),0.873000,0.342397,0.201397,0.045706
+moons_2class_fixed,GM-flat (P=112),0.873000,0.343312,0.202127,0.052939
+moons_2class_fixed,GM-instance,0.899000,0.318192,0.184145,0.081835
+moons_2class_fixed,GM-centroid,0.215500,21.676537,1.569000,0.784500
+moons_2class_fixed,kNN-budget(P=112),0.700500,0.997000,0.340230,0.149750
+moons_2class_fixed,Linear,0.780000,0.531148,0.333092,0.091050
+moons_2class_fixed,kNN,0.873000,0.889441,0.174590,0.054550
+moons_2class_fixed,LabelSpreading,0.892000,0.582043,0.190406,0.083183
+moons_2class_fixed,GM (P=112),0.870500,0.335865,0.211157,0.069738
+moons_2class_fixed,GM-flat (P=112),0.879500,0.329191,0.205749,0.076954
+moons_2class_fixed,GM-instance,0.872500,0.370584,0.221145,0.079763
+moons_2class_fixed,GM-centroid,0.212500,21.759430,1.575000,0.787500
+moons_2class_fixed,kNN-budget(P=112),0.695000,1.466166,0.363900,0.140400
+moons_2class_fixed,Linear,0.784500,0.502564,0.315070,0.078720
+moons_2class_fixed,kNN,0.882500,0.479647,0.156270,0.040350
+moons_2class_fixed,LabelSpreading,0.882000,0.481438,0.196680,0.085281
+moons_2class_fixed,GM (P=112),0.898500,0.258167,0.155492,0.031374
+moons_2class_fixed,GM-flat (P=112),0.899500,0.262808,0.158198,0.053621
+moons_2class_fixed,GM-instance,0.882500,0.342874,0.207747,0.084466
+moons_2class_fixed,GM-centroid,0.213000,21.745613,1.574000,0.787000
+moons_2class_fixed,kNN-budget(P=112),0.723500,0.657112,0.343630,0.110850
+moons_2class_fixed,Linear,0.771500,0.534705,0.335763,0.093671
+moons_2class_fixed,kNN,0.870000,0.692093,0.174910,0.050750
+moons_2class_fixed,LabelSpreading,0.882000,0.505830,0.194823,0.082543
+moons_2class_fixed,GM (P=112),0.859500,0.402756,0.228054,0.048918
+moons_2class_fixed,GM-flat (P=112),0.857500,0.411142,0.235284,0.079616
+moons_2class_fixed,GM-instance,0.867500,0.364684,0.225555,0.098068
+moons_2class_fixed,GM-centroid,0.209000,21.856140,1.582000,0.791000
+moons_2class_fixed,kNN-budget(P=112),0.690500,1.681499,0.384040,0.155200
+moons_2class_fixed,Linear,0.767000,0.570912,0.348174,0.107081
+moons_2class_fixed,kNN,0.874000,0.978817,0.175120,0.048700
+moons_2class_fixed,LabelSpreading,0.875500,0.604628,0.205337,0.087947
+moons_2class_fixed,GM (P=112),0.852000,0.353360,0.221287,0.042199
+moons_2class_fixed,GM-flat (P=112),0.856000,0.360031,0.226131,0.050305
+moons_2class_fixed,GM-instance,0.872500,0.369521,0.222800,0.089355
+moons_2class_fixed,GM-centroid,0.211500,21.787060,1.577000,0.788500
+moons_2class_fixed,kNN-budget(P=112),0.633500,0.961532,0.391380,0.198200

@@ -1,0 +1,92 @@
+[
+  {
+    "tag": "circles_2class_fixed",
+    "method": "Linear",
+    "acc": 0.48375,
+    "t_fit": 0.0015979160089045763,
+    "t_pred": 0.00017373915761709213,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": "-"
+  },
+  {
+    "tag": "circles_2class_fixed",
+    "method": "kNN",
+    "acc": 1.0,
+    "t_fit": 0.0008682420011609793,
+    "t_pred": 0.025813000043854117,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": "-"
+  },
+  {
+    "tag": "circles_2class_fixed",
+    "method": "LabelSpreading",
+    "acc": 1.0,
+    "t_fit": 0.0,
+    "t_pred": 0.0,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": "-"
+  },
+  {
+    "tag": "circles_2class_fixed",
+    "method": "GM",
+    "acc": 1.0,
+    "t_fit": 0.11056062718853354,
+    "t_pred": 0.02251279097981751,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": 32
+  },
+  {
+    "tag": "circles_2class_fixed",
+    "method": "GM-flat",
+    "acc": 1.0,
+    "t_fit": 0.0,
+    "t_pred": 0.022328338818624616,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": 32
+  },
+  {
+    "tag": "circles_2class_fixed",
+    "method": "GM-instance",
+    "acc": 1.0,
+    "t_fit": 0.02663920004852116,
+    "t_pred": 0.19723464199341834,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": 1200
+  },
+  {
+    "tag": "circles_2class_fixed",
+    "method": "GM-centroid",
+    "acc": 0.48625,
+    "t_fit": 0.00026843021623790264,
+    "t_pred": 0.03998816991224885,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": 2
+  },
+  {
+    "tag": "circles_2class_fixed",
+    "method": "GM\u2192LP(sklearn)",
+    "acc": 1.0,
+    "t_fit": 0.0,
+    "t_pred": 0.0,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": 1200
+  },
+  {
+    "tag": "circles_2class_fixed",
+    "method": "kNN-budget(P=32)",
+    "acc": 0.81,
+    "t_fit": 0.0008782811928540468,
+    "t_pred": 0.04104330809786916,
+    "n_train": 32,
+    "n_test": 800,
+    "K": 32
+  }
+]

@@ -1,0 +1,4 @@
+tag,method,smooth
+idc_pca2d,GM,0.379904
+idc_pca2d,kNN,8.348530
+idc_pca2d,LabelSpreading,33.005448

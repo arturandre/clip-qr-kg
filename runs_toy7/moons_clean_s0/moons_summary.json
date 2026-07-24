@@ -1,0 +1,102 @@
+[
+  {
+    "tag": "moons_2class_fixed",
+    "method": "Linear",
+    "acc": 0.8625,
+    "t_fit": 0.0027160109020769596,
+    "t_pred": 0.0002087939064949751,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": "-"
+  },
+  {
+    "tag": "moons_2class_fixed",
+    "method": "kNN",
+    "acc": 0.98625,
+    "t_fit": 0.0009707789868116379,
+    "t_pred": 0.027650570031255484,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": "-"
+  },
+  {
+    "tag": "moons_2class_fixed",
+    "method": "LabelSpreading",
+    "acc": 0.985,
+    "t_fit": 0.007311003981158137,
+    "t_pred": 1.1289957910776138e-06,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": "-"
+  },
+  {
+    "tag": "moons_2class_fixed",
+    "method": "LP(harmonic)",
+    "acc": 0.02125,
+    "t_fit": 0.0,
+    "t_pred": 0.32793006277643144,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": "-"
+  },
+  {
+    "tag": "moons_2class_fixed",
+    "method": "GM",
+    "acc": 0.9425,
+    "t_fit": 0.17211333592422307,
+    "t_pred": 0.025275308871641755,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": 32
+  },
+  {
+    "tag": "moons_2class_fixed",
+    "method": "GM-flat",
+    "acc": 0.94,
+    "t_fit": 0.0,
+    "t_pred": 0.022835253970697522,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": 32
+  },
+  {
+    "tag": "moons_2class_fixed",
+    "method": "GM-instance",
+    "acc": 0.98625,
+    "t_fit": 0.021691106026992202,
+    "t_pred": 0.1927962841000408,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": 1200
+  },
+  {
+    "tag": "moons_2class_fixed",
+    "method": "GM-centroid",
+    "acc": 0.84125,
+    "t_fit": 0.0002669878304004669,
+    "t_pred": 0.040998385986313224,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": 2
+  },
+  {
+    "tag": "moons_2class_fixed",
+    "method": "GM\u2192LP(instance)",
+    "acc": 0.02125,
+    "t_fit": 0.0,
+    "t_pred": 0.2999101460445672,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": 1200
+  },
+  {
+    "tag": "moons_2class_fixed",
+    "method": "kNN-budget(P=32)",
+    "acc": 0.8925,
+    "t_fit": 0.0009553958661854267,
+    "t_pred": 0.04231487982906401,
+    "n_train": 32,
+    "n_test": 800,
+    "K": 32
+  }
+]

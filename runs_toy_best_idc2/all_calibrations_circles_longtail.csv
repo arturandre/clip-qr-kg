@@ -1,0 +1,41 @@
+tag,method,acc,nll,brier,ece
+circles_2class_fixed,Linear,0.500000,1.157803,0.802588,0.388760
+circles_2class_fixed,kNN,0.888500,0.635769,0.149810,0.036750
+circles_2class_fixed,LabelSpreading,0.875000,0.484262,0.198009,0.081509
+circles_2class_fixed,GM (P=112),0.848500,0.329334,0.207231,0.079789
+circles_2class_fixed,GM-flat (P=112),0.854000,0.324882,0.203238,0.058517
+circles_2class_fixed,GM-instance,0.887000,0.340792,0.203264,0.082042
+circles_2class_fixed,GM-centroid,0.511000,13.511570,0.978000,0.489000
+circles_2class_fixed,kNN-budget(P=112),0.867500,0.591394,0.179790,0.072450
+circles_2class_fixed,Linear,0.500000,1.157994,0.802663,0.388923
+circles_2class_fixed,kNN,0.889000,0.677536,0.156240,0.044200
+circles_2class_fixed,LabelSpreading,0.877500,0.478196,0.195470,0.079777
+circles_2class_fixed,GM (P=112),0.874000,0.319756,0.200695,0.068281
+circles_2class_fixed,GM-flat (P=112),0.871000,0.319872,0.200721,0.056813
+circles_2class_fixed,GM-instance,0.888500,0.335029,0.201386,0.074910
+circles_2class_fixed,GM-centroid,0.523500,13.166183,0.953000,0.476500
+circles_2class_fixed,kNN-budget(P=112),0.835000,0.752743,0.197120,0.058000
+circles_2class_fixed,Linear,0.500000,1.157674,0.802536,0.388853
+circles_2class_fixed,kNN,0.898500,0.689715,0.144030,0.040250
+circles_2class_fixed,LabelSpreading,0.887500,0.480079,0.190344,0.081541
+circles_2class_fixed,GM (P=112),0.874500,0.307702,0.186940,0.061899
+circles_2class_fixed,GM-flat (P=112),0.876500,0.305595,0.185457,0.055067
+circles_2class_fixed,GM-instance,0.898000,0.321198,0.190259,0.089465
+circles_2class_fixed,GM-centroid,0.510500,13.525386,0.979000,0.489500
+circles_2class_fixed,kNN-budget(P=112),0.850000,0.439205,0.183070,0.048050
+circles_2class_fixed,Linear,0.500000,1.157448,0.802447,0.388703
+circles_2class_fixed,kNN,0.883000,0.676738,0.160440,0.042600
+circles_2class_fixed,LabelSpreading,0.884000,0.477911,0.195488,0.078998
+circles_2class_fixed,GM (P=112),0.854500,0.334532,0.208290,0.026112
+circles_2class_fixed,GM-flat (P=112),0.854500,0.342522,0.214426,0.050531
+circles_2class_fixed,GM-instance,0.881000,0.344765,0.209027,0.080775
+circles_2class_fixed,GM-centroid,0.500000,13.815512,1.000000,0.500000
+circles_2class_fixed,kNN-budget(P=112),0.857000,0.474213,0.199970,0.051550
+circles_2class_fixed,Linear,0.500000,1.157643,0.802525,0.388890
+circles_2class_fixed,kNN,0.901500,0.591406,0.140660,0.041100
+circles_2class_fixed,LabelSpreading,0.892500,0.439711,0.173267,0.079791
+circles_2class_fixed,GM (P=112),0.845000,0.342199,0.220811,0.054649
+circles_2class_fixed,GM-flat (P=112),0.851500,0.339148,0.218754,0.070168
+circles_2class_fixed,GM-instance,0.901500,0.314364,0.184290,0.085430
+circles_2class_fixed,GM-centroid,0.500000,13.815512,1.000000,0.500000
+circles_2class_fixed,kNN-budget(P=112),0.873000,0.455099,0.172300,0.051100

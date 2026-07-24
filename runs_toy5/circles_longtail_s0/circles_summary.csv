@@ -1,0 +1,17 @@
+tag,method,acc,t_fit,t_pred,n_train,n_test,K,n_classes
+circles_2class_fixed,Linear,0.500000,0.00200859,0.00017230,1200,800,-,2
+circles_2class_fixed,kNN,1.000000,0.00070527,0.02516577,1200,800,-,2
+circles_2class_fixed,LP,1.000000,0.00520915,0.00000119,1200,800,-,2
+circles_2class_fixed,GM,1.000000,0.09901309,0.02297247,1200,800,32,2
+circles_2class_fixed,GM-flat,1.000000,0.04952123,0.02423896,1200,800,32,2
+circles_2class_fixed,GM-instance,0.500000,0.01088333,0.20278615,1200,800,675,2
+circles_2class_fixed,GM-centroid,0.480000,0.00016257,0.02173132,1200,800,2,2
+circles_2class_fixed,kNN-budget(P=32),0.500000,0.00067076,0.02504702,32,800,32,2
+circles_multiclass_fixed,Linear,0.500000,0.00644130,0.00023801,1800,1200,-,6
+circles_multiclass_fixed,kNN,0.910000,0.00078790,0.03815225,1800,1200,-,6
+circles_multiclass_fixed,LP,0.969167,0.00891305,0.00000136,1800,1200,-,6
+circles_multiclass_fixed,GM,0.815833,0.10654466,0.04960707,1800,1200,48,6
+circles_multiclass_fixed,GM-flat,0.815833,0.08786356,0.05049968,1800,1200,48,6
+circles_multiclass_fixed,GM-instance,0.964167,0.01098052,0.21568785,1800,1200,810,6
+circles_multiclass_fixed,GM-centroid,0.481667,0.00029311,0.09055395,1800,1200,6,6
+circles_multiclass_fixed,kNN-budget(P=48),0.438333,0.00088828,0.04952674,48,1200,48,6

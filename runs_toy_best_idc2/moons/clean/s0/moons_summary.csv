@@ -1,0 +1,9 @@
+tag,method,acc,t_fit,t_pred,n_train,n_test,K
+moons_2class_fixed,Linear,0.861000,0.16845722,0.00033234,2000,2000,-
+moons_2class_fixed,kNN,0.942500,0.00159457,0.16365637,2000,2000,-
+moons_2class_fixed,LabelSpreading,0.941000,0.00000000,0.02451769,2000,2000,-
+moons_2class_fixed,GM (P=120),0.940500,5.43245162,2.16193990,2000,2000,120
+moons_2class_fixed,GM-flat (P=120),0.939000,0.00000000,2.14859019,2000,2000,120
+moons_2class_fixed,GM-instance,0.943000,0.16503944,9.46531363,2000,2000,2000
+moons_2class_fixed,GM-centroid,0.222000,0.00070146,0.13570337,2000,2000,2
+moons_2class_fixed,kNN-budget(P=120),0.938500,0.00121357,0.29307623,120,2000,120

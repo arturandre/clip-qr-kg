@@ -1,0 +1,82 @@
+[
+  {
+    "tag": "circles_2class_fixed",
+    "method": "Linear",
+    "acc": 0.50375,
+    "t_fit": 0.00259206909686327,
+    "t_pred": 0.000303393229842186,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": "-"
+  },
+  {
+    "tag": "circles_2class_fixed",
+    "method": "kNN",
+    "acc": 0.945,
+    "t_fit": 0.0013062907382845879,
+    "t_pred": 0.04453661432489753,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": "-"
+  },
+  {
+    "tag": "circles_2class_fixed",
+    "method": "LabelSpreading",
+    "acc": 0.94375,
+    "t_fit": 0.0,
+    "t_pred": 0.02094540698453784,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": "-"
+  },
+  {
+    "tag": "circles_2class_fixed",
+    "method": "GM",
+    "acc": 0.94875,
+    "t_fit": 4.96297824382782,
+    "t_pred": 0.13179260678589344,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": 120
+  },
+  {
+    "tag": "circles_2class_fixed",
+    "method": "GM-flat",
+    "acc": 0.9475,
+    "t_fit": 0.0,
+    "t_pred": 0.06856648810207844,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": 120
+  },
+  {
+    "tag": "circles_2class_fixed",
+    "method": "GM-instance",
+    "acc": 0.94875,
+    "t_fit": 0.057719239965081215,
+    "t_pred": 5.374962678179145,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": 1200
+  },
+  {
+    "tag": "circles_2class_fixed",
+    "method": "GM-centroid",
+    "acc": 0.49625,
+    "t_fit": 0.0006779790855944157,
+    "t_pred": 0.07129784626886249,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": 2
+  },
+  {
+    "tag": "circles_2class_fixed",
+    "method": "kNN-budget(P=120)",
+    "acc": 0.9425,
+    "t_fit": 0.0011621271260082722,
+    "t_pred": 0.05985552491620183,
+    "n_train": 120,
+    "n_test": 800,
+    "K": 120
+  }
+]

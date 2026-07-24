@@ -1,0 +1,92 @@
+[
+  {
+    "tag": "moons_2class_fixed",
+    "method": "Linear",
+    "acc": 0.85,
+    "t_fit": 0.002670273184776306,
+    "t_pred": 0.00020644301548600197,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": "-"
+  },
+  {
+    "tag": "moons_2class_fixed",
+    "method": "kNN",
+    "acc": 0.93625,
+    "t_fit": 0.0009746740106493235,
+    "t_pred": 0.027694376884028316,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": "-"
+  },
+  {
+    "tag": "moons_2class_fixed",
+    "method": "LabelSpreading",
+    "acc": 0.92625,
+    "t_fit": 0.0,
+    "t_pred": 0.0,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": "-"
+  },
+  {
+    "tag": "moons_2class_fixed",
+    "method": "GM",
+    "acc": 0.91375,
+    "t_fit": 0.19016791693866253,
+    "t_pred": 0.02429731795564294,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": 64
+  },
+  {
+    "tag": "moons_2class_fixed",
+    "method": "GM-flat",
+    "acc": 0.9125,
+    "t_fit": 0.0,
+    "t_pred": 0.0236163348890841,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": 64
+  },
+  {
+    "tag": "moons_2class_fixed",
+    "method": "GM-instance",
+    "acc": 0.93625,
+    "t_fit": 0.02646868396550417,
+    "t_pred": 0.20421598199754953,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": 1200
+  },
+  {
+    "tag": "moons_2class_fixed",
+    "method": "GM-centroid",
+    "acc": 0.84625,
+    "t_fit": 0.0003037361893802881,
+    "t_pred": 0.03977709403261542,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": 2
+  },
+  {
+    "tag": "moons_2class_fixed",
+    "method": "GM\u2192LP(sklearn)",
+    "acc": 0.92625,
+    "t_fit": 0.0,
+    "t_pred": 0.0,
+    "n_train": 1200,
+    "n_test": 800,
+    "K": 1200
+  },
+  {
+    "tag": "moons_2class_fixed",
+    "method": "kNN-budget(P=64)",
+    "acc": 0.87625,
+    "t_fit": 0.0009342620614916086,
+    "t_pred": 0.04180670599453151,
+    "n_train": 64,
+    "n_test": 800,
+    "K": 64
+  }
+]

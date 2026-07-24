@@ -1,0 +1,8 @@
+datasets
+pillow
+datasets
+torchvision
+scikit-learn
+pillow
+matplotlib
+plotly

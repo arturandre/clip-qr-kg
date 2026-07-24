@@ -1,0 +1,9 @@
+tag,method,acc,nll,brier,ece
+circles_2class_fixed,Linear,0.503000,0.693636,0.500489,0.002414
+circles_2class_fixed,kNN,1.000000,-0.000000,0.000000,0.000000
+circles_2class_fixed,LabelSpreading,1.000000,-0.000000,0.000000,0.000000
+circles_2class_fixed,GM,0.999000,0.164302,0.051868,0.149138
+circles_2class_fixed,GM-flat,0.999000,0.168502,0.053818,0.152763
+circles_2class_fixed,GM-instance,1.000000,0.105362,0.020000,0.100001
+circles_2class_fixed,GM-centroid,0.497500,13.884589,1.005000,0.502500
+circles_2class_fixed,kNN-budget(P=32),0.808000,0.378656,0.279570,0.137950

@@ -1,0 +1,17 @@
+tag,method,acc,t_fit,t_pred,n_train,n_test,K,n_classes
+moons_2class_fixed,Linear,0.878750,0.00257698,0.00019308,1200,800,-,2
+moons_2class_fixed,kNN,0.988750,0.00089859,0.02850517,1200,800,-,2
+moons_2class_fixed,LP,0.986250,0.00738686,0.00000134,1200,800,-,2
+moons_2class_fixed,GM,0.955000,0.13216658,0.02380596,1200,800,32,2
+moons_2class_fixed,GM-flat,0.955000,0.08126596,0.02366175,1200,800,32,2
+moons_2class_fixed,GM-instance,0.988750,0.02755412,0.20315296,1200,800,1200,2
+moons_2class_fixed,GM-centroid,0.861250,0.00025907,0.04143623,1200,800,2,2
+moons_2class_fixed,kNN-budget(P=32),0.857500,0.00098011,0.04198608,32,800,32,2
+moons_multiclass_fixed,Linear,0.845833,0.00958799,0.00025364,1800,1200,-,6
+moons_multiclass_fixed,kNN,0.973333,0.00099234,0.03993747,1800,1200,-,6
+moons_multiclass_fixed,LP,0.976667,0.01321311,0.00000155,1800,1200,-,6
+moons_multiclass_fixed,GM,0.821667,0.17070361,0.05196571,1800,1200,48,6
+moons_multiclass_fixed,GM-flat,0.819167,0.16897246,0.05212434,1800,1200,48,6
+moons_multiclass_fixed,GM-instance,0.975833,0.05689056,0.46626097,1800,1200,1800,6
+moons_multiclass_fixed,GM-centroid,0.824167,0.00039099,0.09072861,1800,1200,6,6
+moons_multiclass_fixed,kNN-budget(P=48),0.820833,0.00088037,0.04994290,48,1200,48,6

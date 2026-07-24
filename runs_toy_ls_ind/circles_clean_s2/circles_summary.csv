@@ -1,0 +1,9 @@
+tag,method,acc,t_fit,t_pred,n_train,n_test,K
+circles_2class_fixed,Linear,0.499000,0.00187903,0.00020492,1800,2000,-
+circles_2class_fixed,kNN,0.999000,0.00113780,0.06606811,1800,2000,-
+circles_2class_fixed,LabelSpreading,0.999000,0.00000000,0.02165442,1800,2000,-
+circles_2class_fixed,GM,0.999000,0.76456128,0.14148491,1800,2000,180
+circles_2class_fixed,GM-flat,0.999000,0.00000000,0.13817110,1800,2000,180
+circles_2class_fixed,GM-instance,0.999000,0.05779018,0.58993321,1800,2000,1800
+circles_2class_fixed,GM-centroid,0.499000,0.00035580,0.10168593,1800,2000,2
+circles_2class_fixed,GM→LP(sklearn),0.999000,0.00000000,0.02165442,1800,2000,1800

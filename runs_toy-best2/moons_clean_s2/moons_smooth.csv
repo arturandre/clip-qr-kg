@@ -1,0 +1,5 @@
+tag,method,smooth
+moons_2class_fixed,GM,0.361917
+moons_2class_fixed,GM-flat,0.357548
+moons_2class_fixed,kNN,0.957851
+moons_2class_fixed,LabelSpreading,13.081313

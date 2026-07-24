@@ -1,0 +1,21 @@
+tag,method,smooth
+circles_2class_fixed,GM (P=120),0.635584
+circles_2class_fixed,GM-flat (P=120),0.643293
+circles_2class_fixed,kNN,1.070394
+circles_2class_fixed,LabelSpreading,11.324796
+circles_2class_fixed,GM (P=120),0.759554
+circles_2class_fixed,GM-flat (P=120),0.760621
+circles_2class_fixed,kNN,1.163034
+circles_2class_fixed,LabelSpreading,12.231199
+circles_2class_fixed,GM (P=120),0.792341
+circles_2class_fixed,GM-flat (P=120),0.820400
+circles_2class_fixed,kNN,1.133871
+circles_2class_fixed,LabelSpreading,12.309328
+circles_2class_fixed,GM (P=120),0.681988
+circles_2class_fixed,GM-flat (P=120),0.701962
+circles_2class_fixed,kNN,0.950179
+circles_2class_fixed,LabelSpreading,10.644638
+circles_2class_fixed,GM (P=120),0.743107
+circles_2class_fixed,GM-flat (P=120),0.754676
+circles_2class_fixed,kNN,1.005726
+circles_2class_fixed,LabelSpreading,10.774915

@@ -1,0 +1,4 @@
+model,acc
+linear,0.9332
+knn,0.9222
+graphmemory,0.8844

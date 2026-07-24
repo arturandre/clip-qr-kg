@@ -1,0 +1,25 @@
+base_tag,method,acc_mean,acc_std,nll_mean,nll_std,brier_mean,brier_std,ece_mean,ece_std
+idc,GM,0.8452499999999998,0.0,0.4208718,1.1819475453669875e-05,0.2420384,2.607680962072824e-06,0.0274306,0.00015403506094392985
+idc,kNN-budget(P=32.0),0.79765,0.0786385322218059,0.6075928,0.339344929469559,0.279969,0.04206508668123717,0.079915,0.031206843199849607
+idc,kNN,0.8402499999999999,0.0,1.039999,0.0,0.240725,0.0,0.038625,0.0
+idc,LabelSpreading,0.8265,0.0,0.53162,0.0,0.266974,0.0,0.06397,0.0
+idc,Linear,0.83675,0.0,0.397316,0.0,0.237846,0.0,0.047827,0.0
+
+\begin{table}[]
+\begin{tabular}{l|ll}
+\hline
+Method           & Acc $\uparrow$         & NLL $\downarrow$       \\\hline
+GM(P=32)         & \textbf{0.845 (0.000)} & 0.420 (0.000)          \\
+kNN-budget(P=32) & 0.797 (0.078)          & 0.607 (0.339)          \\
+kNN              & 0.840 (0.000)          & 1.039 (0.000)          \\
+LabelSpreading   & 0.826 (0.000)          & 0.531 (0.000)          \\
+Linear           & 0.836 (0.000)          & \textbf{0.397 (0.000)}\\\hline
+\end{tabular}
+\caption{
+\textbf{Accuracy and calibration on the IDC histopathology dataset.}
+Graph Memory (GM) achieves the highest accuracy while maintaining strong calibration, despite using only \textbf{32 prototypes}—a compact and efficient representation of the entire dataset.
+The Linear classifier attains a slightly lower NLL (0.397 vs.\ 0.420) owing to its parametric optimization, but with comparable accuracy (0.836 vs.\ 0.845), showing that GM reaches near-parametric calibration while remaining non-parametric and interpretable.
+Except for the $k$NN-budget baseline, all methods exhibit negligible variance across runs (std~$\approx$~0), indicating consistent convergence and stable behavior under this setup.
+}
+\label{tab:acc_idc}
+\end{table}

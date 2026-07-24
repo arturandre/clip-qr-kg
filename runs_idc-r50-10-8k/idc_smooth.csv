@@ -1,0 +1,9 @@
+tag,method,smooth
+idc,Linear,0.304619
+idc,kNN,0.194256
+idc,LabelSpreading,0.234063
+idc,GM,0.000000
+idc,GM-flat,0.000000
+idc,GM-instance,0.000000
+idc,GM-centroid,0.000000
+idc,kNN-budget(P=400),0.069345
